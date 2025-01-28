@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="Registro.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Registro de estudiante</h2>
+        <form action="/insert" id="formulario" method="POST">
+            <input type="text" id="matricula" name="matricula" placeholder="Matricula">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo">
+            <input type="email" id="correo" name="correo" placeholder="Correo institucional">
+            <input type="tel" id="telefono" name="telefono" placeholder="Telefono">
+            <input type="text" id="carrera" name="carrera" placeholder="Carrera">
+            
+            <button type="submit">Registrar</button>
+
+        </form>
+</body>
+
+</html>
